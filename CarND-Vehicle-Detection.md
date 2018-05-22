@@ -17,15 +17,15 @@ The project was about using Computer Vision and Machine Learning techniques for 
 ## Rubric Files
 1. `CarND-Vehicle-Detection.ipynb` 
     * Contains the complete for code for the advance lane line detection pipelines
-    * The file can be seen at [MyProjectCode](CarND-Vehicle-Detection/CarND-Vehicle-Detection.ipynb)
+    * The file can be seen at [MyProjectCode](https://github.com/geekay2015/CarND-Vehicle-Detection/blob/master/CarND-Vehicle-Detection.ipynb)
     
 2. `CarND-Vehicle-Detection.md`
     * conatins all the rubric points and how I addressed each one with examples.
-    * The file can be seen at [MyProjectWritup](CarND-Vehicle-Detection/CarND-Vehicle-Detection.md)
+    * The file can be seen at [MyProjectWritup](https://github.com/geekay2015/CarND-Vehicle-Detection/blob/master/CarND-Vehicle-Detection.md)
     
 3.  `output_files`
     * a directory containg the output files from AdvancedLaneFinding.ipynb jupyter notebook.
-    * The output files can be seen [MyOutputFIles](CarND-Vehicle-Detection/output_files)
+    * The output files can be seen [MyOutputFIles](https://github.com/geekay2015/CarND-Vehicle-Detection/tree/master/output_images)
     
 4. `project_video_output.mp4`
     * Complete Video Implementation from my pipeline 
