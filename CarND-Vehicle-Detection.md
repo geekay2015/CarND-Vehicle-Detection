@@ -1,6 +1,5 @@
 
 # Vehicle Detection and Tracking
----
   
 The project was about using Computer Vision and Machine Learning techniques for Vehicle Detection with Python + OpenCV to draw boxes on the cars in the road, first on images and afterwards on a video stream to create the final output video showed below.
 
@@ -30,12 +29,13 @@ The project was about using Computer Vision and Machine Learning techniques for 
 4. `project_video_output.mp4`
     * Complete Video Implementation from my pipeline 
     * Here's a link to my project video output
-    
-    <div style="float:left;margin:0 10px 10px 0" markdown="1">
+   
     [![Vehicle detection and tracking](http://img.youtube.com/vi/YrW0n-tNQjY/0.jpg)](https://www.youtube.com/watch?v=YrW0n-tNQjY)
-    </div>
+   
+   
 
 ## Data Exploration and Visualization
+First I started by reading in all the vehicle and non-vehicle images provided. 
 Import the labelled datasets which has vehicle and not vehicle images in `training_images` directory.
 
 Here are links to the Labeled data for 
@@ -46,12 +46,14 @@ Examples to train your classifier.  These example images come from a combination
 * [GTI vehicle image database](http://www.gti.ssr.upm.es/data/Vehicle_database.html)
 * [KITTI vision benchmark suite](http://www.cvlibs.net/datasets/kitti/)
 
-The training dataset has 8792 cars and 8968
+The training dataset has 
+* 8792 cars and 
+* 8968 Non Cars
 
-Training Dataset - Vehicles
+Here are some if the example from Vehicles class
 ![png](https://github.com/geekay2015/CarND-Vehicle-Detection/blob/master/output_images/CarND-Vehicle-Detection_4_1.png)
 
-Training Dataset - Non Vehicles
+Here are some if the example from Non-Vehicles class
 ![png](https://github.com/geekay2015/CarND-Vehicle-Detection/blob/master/output_images/CarND-Vehicle-Detection_4_3.png)
 
 ## HOG feature extraction on a labeled training set of images
@@ -129,6 +131,7 @@ Feature vector length: 128
 ```
 
 ## Randomize a selection for training and testing
+I Normalize my features and randomized the selection for training and testing. My feature vector length of 128 components.
 ```
 Using: 8 orientations 16 pixels per cell and 1 cells per block
 Feature vector length: 128
@@ -226,6 +229,7 @@ In the video I used information from multiple frames to make average boxes more 
 ```
 
 Here's a Link to my video result
+
 [![Vehicle detection and tracking](http://img.youtube.com/vi/YrW0n-tNQjY/0.jpg)](https://www.youtube.com/watch?v=YrW0n-tNQjY)
 
 ## Discussion
