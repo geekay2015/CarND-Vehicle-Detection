@@ -54,7 +54,6 @@ Training Dataset - Vehicles
 Training Dataset - Non Vehicles
 ![png](output_files/CarND-Vehicle-Detection_4_3.png)
 
-
 ## HOG feature extraction on a labeled training set of images
 
 **HOG (Histogram of gradient descents)** is a powerful computer vision technique to identify the shape of an object using the direction of gradient along its edges. I have implemented in using `get_hog_features` function. 
