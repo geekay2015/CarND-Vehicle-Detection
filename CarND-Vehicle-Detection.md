@@ -49,10 +49,10 @@ Examples to train your classifier.  These example images come from a combination
 The training dataset has 8792 cars and 8968
 
 Training Dataset - Vehicles
-![png](output_files/CarND-Vehicle-Detection_4_1.png)
+![png](https://github.com/geekay2015/CarND-Vehicle-Detection/blob/master/output_images/CarND-Vehicle-Detection_4_1.png)
 
 Training Dataset - Non Vehicles
-![png](output_files/CarND-Vehicle-Detection_4_3.png)
+![png](https://github.com/geekay2015/CarND-Vehicle-Detection/blob/master/output_images/CarND-Vehicle-Detection_4_3.png)
 
 ## HOG feature extraction on a labeled training set of images
 
@@ -83,17 +83,17 @@ hist_feat = False # Histogram features on or off
 hog_feat = True # HOG features on or off
 
 ```
-![png](output_files/CarND-Vehicle-Detection_8_0.png)
+![png](https://github.com/geekay2015/CarND-Vehicle-Detection/blob/master/output_images/CarND-Vehicle-Detection_8_0.png)
 
-![png](output_files/CarND-Vehicle-Detection_8_1.png)
+![png](https://github.com/geekay2015/CarND-Vehicle-Detection/blob/master/output_images/CarND-Vehicle-Detection_8_1.png)
 
-![png](output_files/CarND-Vehicle-Detection_8_2.png)
+![png](https://github.com/geekay2015/CarND-Vehicle-Detection/blob/master/output_images/CarND-Vehicle-Detection_8_2.png)
 
-![png](output_files/CarND-Vehicle-Detection_9_0.png)
+![png](https://github.com/geekay2015/CarND-Vehicle-Detection/blob/master/output_images/CarND-Vehicle-Detection_9_0.png)
 
-![png](output_files/CarND-Vehicle-Detection_9_1.png)
+![png](https://github.com/geekay2015/CarND-Vehicle-Detection/blob/master/output_images/CarND-Vehicle-Detection_9_1.png)
 
-![png](output_files/CarND-Vehicle-Detection_9_2.png)
+![png](https://github.com/geekay2015/CarND-Vehicle-Detection/blob/master/output_images/CarND-Vehicle-Detection_9_2.png)
 
 
 ## Training classifier to detect cars using Linear SVM 
@@ -148,7 +148,7 @@ For searching cars in an input image I use sliding window technique. It means th
 
 So, my goal here is to write a function that takes in an image, start and stop positions in both x and y (imagine a bounding box for the entire search region), window size (x and y dimensions), and overlap fraction (also for both x and y). Your function should return a list of bounding boxes for the search windows, which will then be passed to draw draw_boxes() function.
 
-![png](output_files/CarND-Vehicle-Detection_21_0.png)
+![png](https://github.com/geekay2015/CarND-Vehicle-Detection/blob/master/output_images/CarND-Vehicle-Detection_21_0.png)
 
 
 ## Estimate a bounding box for vehicles detected
@@ -175,7 +175,7 @@ Below is the algorithm:-
       'be changed to `L2-Hys` in v0.15', skimage_deprecation)
 ```
 
-![png](output_files/CarND-Vehicle-Detection_24_1.png)
+![png](https://github.com/geekay2015/CarND-Vehicle-Detection/blob/master/output_images/CarND-Vehicle-Detection_24_1.png)
 
 
 ## Video Implementation
