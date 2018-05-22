@@ -50,10 +50,10 @@ The training dataset has
 * 8792 cars and 
 * 8968 Non Cars
 
-Here are some if the example from Vehicles class
+Here are some of the example from Vehicles class
 ![png](https://github.com/geekay2015/CarND-Vehicle-Detection/blob/master/output_images/CarND-Vehicle-Detection_4_1.png)
 
-Here are some if the example from Non-Vehicles class
+Here are some of the example from Non-Vehicles class
 ![png](https://github.com/geekay2015/CarND-Vehicle-Detection/blob/master/output_images/CarND-Vehicle-Detection_4_3.png)
 
 ## HOG feature extraction on a labeled training set of images
